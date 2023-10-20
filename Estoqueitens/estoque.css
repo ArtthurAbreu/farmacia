@@ -50,7 +50,7 @@ nav a:hover {
 li a:hover{
 
   display: inline-block;
-  background-color:hwb(358 12% 18%) ;
+  background-color:hsla(11, 100%, 60%, 0.612);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -382,10 +382,19 @@ input[type="Tel"] {
     color: #fff
   }
 
-.ButtonEstoque:hover{
-  background-color: #0C2D48;
-  color:#fff; 
+.ButtonEstoque{ 
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 0%;
+}
 
+.ButtonEstoque:hover {
+  background-color: hsl(211, 91%, 27%);
 }
 
 .QuantidadeProd{

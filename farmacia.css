@@ -45,7 +45,7 @@ nav a:hover {
 li a:hover{
 
   display: inline-block;
-  background-color:#ff5733;
+  background-color:hsla(11, 100%, 60%, 0.612);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -54,6 +54,7 @@ li a:hover{
   font-weight: bold; /* Texto em negrito */
   text-align: center; /* Centralize o texto horizontalmente */
   transition: background-color 0.3s;
+  color: #fff;
 }
 
 
@@ -129,6 +130,7 @@ main {
 }
 
 .navigation ul li a {
+ 
   position: relative;
   display: flex;
   width: 100%;
@@ -137,6 +139,7 @@ main {
 }
 
 .navigation ul li a .icone_menu_lateral {
+  
   position: relative;
   display: block;
   min-width: 60px;
@@ -192,7 +195,6 @@ main {
   border-radius: 50%;
   box-shadow: 15px -15px 0 #0C2D48;
 }
-
 
 
 .dashboard {
